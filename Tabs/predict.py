@@ -45,7 +45,6 @@ def app(df, x, y) :
     
     if st.button("Prediksi"):
         prediction, score = predict(x, y, features)
-        score = score
         st.info("Prediksi Sukses...")
 
         if prediction == 1:
